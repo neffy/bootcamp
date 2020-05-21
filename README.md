@@ -94,13 +94,13 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - What is the main advantage of automating configuration with Ansible? _it allows for multiple services to be installed and configurated on to connected servers in the network.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- _Ansiable needs to first be installed on the jumpbox
+- _The ansiable Host and ansiable.cfg files need to be updated to allow the server that needs to be configured
+- _A playbook needs to be created and ran so that the services will be installed to the target server
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Update the path with the name of your screenshot of docker ps output](docker ps.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
